@@ -16,10 +16,10 @@ include "core/autoload.php";
 
 ob_start();
 session_start();
-Core::$root="";
+Core::$root="b8b3f6e2609f1f";
 
 // si quieres que se muestre las consultas SQL debes decomentar la siguiente linea
-// Core::$debug_sql = true;
+ Core::$debug_sql = true;
 
 $lb = new Lb();
 $lb->start();
